@@ -1,0 +1,76 @@
+@font-face {
+font-family: "Irish Grover";
+src: url('fonts/IrishGrover-Regular.ttf') format('truetype');
+font-weight: 400;
+font-display: swap;
+}
+body{
+    background: linear-gradient(#D4D9FA,#97A2EA,#7279A8); 
+}
+
+
+header{
+    background-color: #17CEA6;
+    opacity: 0.5;
+box-shadow: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+head span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: relative;
+top: 20px;
+left: 100px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+nav a{
+    color: white;
+    text-align: center;
+    margin-inline: 100px;
+    background-color:#05a9f5;
+    padding:10px 30px 10px 30px;
+     border-radius: 0px 0px 50px 50px;
+     width: 200px;
+     border: 0px;
+     box-shadow: 5px 5px rgb(7, 66, 228);
+     font-family:Irish Grover; 
+}
+main img{
+ width: 530px;
+ height: 420px;   
+ border: 12px solid rgba(1, 1, 199, 0);
+}
+ 
+
+main{
+    display: flex;
+    margin-top: 20px;
+}
+span{
+font-family: Irish Grover;
+font-size: 22px;
+color: black;
+}
+header span{
+    font-size: 64px;
+    margin-left: 20px;
+} 
+.btn_nav:hover{
+    width: 210px;
+    background-color: rgb(76, 0, 255);
+    color: rgb(1, 50, 139); 
+    font-size: 17px;
+}
+main img:hover{
+    width: 540px;
+    height: 430px;
+    border: 12px solid rgb(1, 1, 199);
+    border-radius: 40px;
+}
